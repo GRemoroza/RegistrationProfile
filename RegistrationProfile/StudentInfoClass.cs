@@ -16,6 +16,13 @@ namespace RegistrationProfile
        public static string Birthday = "";
        public static string FullName = "";
 
-       
+        public static long SetStudentNo { get; set; }
+        public static long SetContactNo { get; set; }
+        public static string SetProgram { get; set; }
+        public static string SetGender { get; set; }
+        public static string SetBirthDay { get; set; }
+        public static string SetFullName { get; set; }
+        public static int SetAge { get; set; }
+
     }
 }
